@@ -25,45 +25,7 @@
 						</g-link>
 					</div>
 				</template>
-				<!-- <div class="project" data-v-50cbff3e="">
-					<a href="./Details" class="project-link" data-v-50cbff3e="">
-						<img src="/img/a1.jpg" class="thumbnail g-image g-image--lazy g-image--loading" width="2560">
-						<h3 class="project-title" data-v-50cbff3e="">Banana</h3>
-						<div class="categories" data-v-50cbff3e="">
-							<span class="category" data-v-50cbff3e="">photography</span>
-							<span class="category" data-v-50cbff3e="">pink</span>
-						</div>
-					</a>
-				</div>
-				<div class="project" data-v-50cbff3e="">
-					<a href="./Details" class="project-link" data-v-50cbff3e="">
-						<img src="/img/a2.jpg" class="thumbnail g-image g-image--lazy g-image--loading" width="2560">
-						<h3 class="project-title" data-v-50cbff3e="">Pineapple</h3>
-						<div class="categories" data-v-50cbff3e="">
-							<span class="category" data-v-50cbff3e="">photography</span>
-							<span class="category" data-v-50cbff3e="">blue</span>
-						</div>
-					</a>
-				</div>
-				<div class="project" data-v-50cbff3e="">
-					<a href="./Details" class="project-link" data-v-50cbff3e="">
-						<img src="/img/a3.jpg" class="thumbnail g-image g-image--lazy g-image--loading" width="2560">
-						<h3 class="project-title" data-v-50cbff3e="">Ice Cream</h3>
-						<div class="categories" data-v-50cbff3e="">
-							<span class="category" data-v-50cbff3e="">photography</span>
-							<span class="category" data-v-50cbff3e="">yellow</span>
-						</div>
-					</a>
-				</div>
-				<div class="project" data-v-50cbff3e="">
-					<a href="./Details" class="project-link" data-v-50cbff3e="">
-						<img src="/img/a4.jpg" class="thumbnail g-image g-image--lazy g-image--loading" width="2560">
-						<h3 class="project-title" data-v-50cbff3e="">Porta400</h3>
-						<div class="categories" data-v-50cbff3e="">
-							<span class="category" data-v-50cbff3e="">photography</span>
-							<span class="category" data-v-50cbff3e="">yellow</span></div>
-					</a>
-				</div> -->
+				
 			</div>
 		</div> 
 
@@ -81,9 +43,6 @@
 					title
 					listDisplay
 					author
-					pic{
-						url
-					}
 					urls
 				}
 			}
@@ -102,7 +61,7 @@ export default {
   },
   data () {
     return {
-		lost: 'http://117.50.64.225:1337'
+		lost: ''
 	}
   }	
 }
