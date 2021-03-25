@@ -59,16 +59,8 @@ export default {
     name:'post',
 	methods:{
 		mdToHtml(html){
-			// const local = `http://${window.location.host.substring(0, window.location.host.indexOf(':'))}:1337`
-			const local = 'http://117.50.64.225:1337'
-			let htmls = md.render(html).split('>')
-			htmls.forEach((item, i) => {
-				if(item.indexOf('img') > -1){
-					htmls[i] = item.substring(0, 10) + local + item.substring(10 ,i.length)
-				}
-			})
-			htmls = htmls.join('>')
-			return htmls
+			
+			return html
 
 		}
 	}
