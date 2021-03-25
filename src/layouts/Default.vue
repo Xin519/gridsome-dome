@@ -5,7 +5,7 @@
 			<div class="container" data-v-7e33895e="">
 				<div class="left" data-v-7e33895e="">
 					<a href="/" aria-current="page" class="home-link active--exact active" data-v-7e33895e="">
-						<img src="/img/logo.svg" alt="Nichlas W. Andersen" class="logo" data-v-7e33895e="">
+						<!--<img src="/img/logo.svg" alt="Nichlas W. Andersen" class="logo" data-v-7e33895e="">-->
 					</a>
 				</div>
 				<nav class="nav right" data-v-7e33895e="">
